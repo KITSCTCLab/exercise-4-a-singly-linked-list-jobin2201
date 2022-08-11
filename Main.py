@@ -105,7 +105,7 @@ class Solution:
         while curr is not None:
             num = str(curr.data) + num
             curr = curr.next
-        return 
+        return int(num)
 
 
 # Do not edit the following code
